@@ -5,7 +5,7 @@ import styles from "./Test.module.css";
 
 const fetchData = async () => {
   try {
-    const response = await fetch("http://localhost:8000/api/v1/airport/");
+    const response = await fetch("https://nirin-backend.vercel.app/api/v1/airport/");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
