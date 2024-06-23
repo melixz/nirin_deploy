@@ -66,7 +66,6 @@ export default function FastBookingForm() {
             )}
           </datalist>
         </div>
-
         <div className={styles.label__wrapper}>
           <label className={styles.label} htmlFor="citySelect">
             <img src={src_plane_came} alt="city arrived" />
