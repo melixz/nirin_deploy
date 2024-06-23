@@ -95,6 +95,24 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      {/* Вставка виджета чата */}
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `
+            <script type='text/javascript'>
+              (function(){
+                  let language = 'ru';
+                  let s = document.createElement('script');
+                  s.type = 'text/javascript';
+                  s.async = true;
+                  s.src = encodeURI('https://tocha.online/36206a0011e961d05245f7b01a7766e8/widget.js?language=' + language);
+                  let ss = document.getElementsByTagName('script')[0];
+                  ss.parentNode.insertBefore(s, ss);
+              })();
+            </script>
+          `
+        }}
+      />
     </div>
   );
 }
