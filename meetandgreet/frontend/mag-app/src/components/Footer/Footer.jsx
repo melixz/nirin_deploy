@@ -4,7 +4,7 @@ import logo from "../../assets/footer__logo.png";
 import insta from "../../assets/instagram.png";
 import telega from "../../assets/telegram.png";
 import watsapp from "../../assets/watsapp.png";
-import ChatWidget from './ChatWidget'; // Импорт компонента
+import ChatWidget from '../Chat/ChatWidget';
 
 export default function Footer() {
   return (
