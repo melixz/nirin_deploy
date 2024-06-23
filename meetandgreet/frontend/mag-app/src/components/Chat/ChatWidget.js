@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+
+
 const ChatWidget = () => {
   useEffect(() => {
     const script = document.createElement('script');
