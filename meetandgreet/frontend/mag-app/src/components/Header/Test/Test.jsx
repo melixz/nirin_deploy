@@ -9,7 +9,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 const fetchData = async () => {
   try {
     // Используем переменную apiUrl вместо жестко заданного URL
-    const response = await fetch(`${apiUrl}/api/v1/airport/`);
+    const response = await fetch(`${apiUrl}/api/v1/airport`);
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
