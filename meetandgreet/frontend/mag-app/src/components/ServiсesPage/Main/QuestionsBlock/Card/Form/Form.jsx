@@ -9,13 +9,13 @@ export default function Form() {
         <input type="text" placeholder="name" />
         <input type="text" placeholder="Phone number" />
         <input type="text" placeholder="Email adress" />
-        <textarea
+        <div
           name="Ask questions"
           id="area"
           cols="30"
           rows="10"
           placeholder="Ask questions"
-        ></textarea>
+        ></div>
       </div>
       <button className={styles.form__btn}>Send</button>
     </div>
