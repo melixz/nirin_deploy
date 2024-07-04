@@ -13,7 +13,7 @@ export default function Options() {
 
       <div className={styles.options__wrapper_items}>
         <div className={styles.options__item}>
-          <img src={call_icon} alt="call_icon" width="20" height="20" />
+          <Link to="tel: +7 (978) 585-70-56" className={styles.options__item_link}><img src={call_icon} alt="call_icon" width="20" height="20" /></Link>
         </div>
         <div className={styles.options__item}>
           <img src={login_icon} alt="login_icon" />

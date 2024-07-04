@@ -34,7 +34,7 @@ export default function Navigation() {
         </div>
         <div className={styles.options__wrapper}>
           <LangBlock />
-          <Link to={"tel:+7 (495) 999-99-99"}>
+          <Link to={"tel:+7 (978) 585-70-56"}>
             <div className={styles.header__call_wrapper}>
               <div className={styles.header__call_icon}></div>
             </div>
