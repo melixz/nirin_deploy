@@ -12,6 +12,7 @@ export default function Card({ children }) {
         autoPlay
         loop
         muted
+        playsInline
       ></video>
       <div className={styles.card__title_box}>
         <h3 className={styles.card__title}>{children}</h3>

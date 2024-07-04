@@ -5,7 +5,7 @@ import video from "../../../assets/1920px_header_bgr.mp4";
 export default function Video() {
   return (
     <>
-      <video src={video} autoPlay loop muted className={styles.video}></video>
+      <video src={video} autoPlay loop muted playsInline className={styles.video}></video>
     </>
   );
 }
