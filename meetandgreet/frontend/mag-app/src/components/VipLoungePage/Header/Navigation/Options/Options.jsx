@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Options.module.css";
 import login_icon from "../../../../../assets/vip_lounge_login_icon.png";
 import call_icon from "../../../../../assets/vip_lounge_phone_icon.png";
+import {Link} from  "react-router-dom";
 
 export default function Options() {
   return (
