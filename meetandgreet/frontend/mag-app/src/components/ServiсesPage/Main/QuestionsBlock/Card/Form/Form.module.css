@@ -20,6 +20,7 @@
   height: 97px;
   padding: 18px 30px;
   border-radius: 20px;
+  background-color:#fff;
 }
 .form__areas {
   display: flex;
