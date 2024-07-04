@@ -9,7 +9,7 @@ export default function Form() {
         <input type="text" placeholder="name" />
         <input type="text" placeholder="Phone number" />
         <input type="text" placeholder="Email adress" />
-        <div
+        <div className={styles.form__area}
           name="Ask questions"
           id="area"
           cols="30"
